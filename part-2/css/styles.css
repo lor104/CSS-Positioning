@@ -21,6 +21,7 @@ img {
 
 figure {
   margin: 0;
+  position: relative;
 }
 
 .film {
@@ -31,4 +32,16 @@ figure {
 }
 
 article.film {}
- 
+
+
+.action-watch-later {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 1;
+    color: red;
+}
+
+.action-like {
+    color:  red;
+}
