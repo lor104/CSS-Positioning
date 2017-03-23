@@ -50,14 +50,17 @@ article.film {
 .action-like {
     color:  red;
     position: absolute;
-    bottom: 8px;
     right: 8px;
 }
 
 .film-details {
     float: left;
     position: relative;
-    width: 45%;
+    width: 49%;
     padding-left: 20px;
     top: -25px;
+}
+
+p.film-description {
+    width: 100%;
 }
