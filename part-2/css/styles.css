@@ -24,6 +24,8 @@ figure {
   position: relative;
 }
 
+figure.film-poster {}
+
 .film {
   width: 50%;
   margin: 40px auto;
@@ -31,8 +33,9 @@ figure {
   border: 1px solid lightgray;
 }
 
-article.film {}
-
+article.film {
+    overflow: auto;
+}
 
 .action-watch-later {
     position: absolute;
@@ -44,4 +47,12 @@ article.film {}
 
 .action-like {
     color:  red;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+
+.film-details {
+    float: left;
+    position: relative;
 }
